@@ -13,6 +13,10 @@ color: whitesmoke;
 font-size: 10rem !important;
 }
 
+section{
+    display: flex !important;
+}
+
 .checks{
     display: flex;
     width: 60%;
@@ -49,6 +53,18 @@ font-size: 10rem !important;
     align-content: center;
     justify-content: center;
 }
+#cartasp{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#cartasu{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 
 body{
     background: #0f0c29;  /* fallback for old browsers */
@@ -71,6 +87,7 @@ background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Ch
 background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 color: whitesmoke;
 align-content: flex-end;
+
 }
 
 
@@ -86,8 +103,8 @@ footer p{
 
 .formu{
     width: 100% !important;
-    height: 60% !important;
     margin-top: 50px !important;
+    padding: 25px !important;
 }
 
 .row{
@@ -102,3 +119,27 @@ footer p{
     flex-wrap: wrap;
     height: 100% !important;
 }
+
+@media (min-width: 768px) { 
+    #fotcont{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+    }
+    a{
+        font-size: 2em !important;
+    }
+    th, td{
+        font-size: 1.5rem !important;
+    }
+ }
+
+ @media (min-width: 1023px){
+    .formularios{
+        height: 10rem !important;
+    }
+    th, td{
+        font-size: 2.3rem !important;
+    }
+ }
