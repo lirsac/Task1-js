@@ -112,8 +112,7 @@ footer p{
 }
 
 .table{
-    width: 80% !important;
-    display: flex;
+    width: 85% !important;
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
